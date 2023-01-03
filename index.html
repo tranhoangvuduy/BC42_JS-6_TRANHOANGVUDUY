@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BT-js-1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- BT1: TÌM SỐ NGUYÊN DƯƠNG NHỎ NHẤT -->
+    <h3 class="container">BT1: TÌM SỐ NGUYÊN DƯƠNG NHỎ NHẤT</h3>
+    <br>
+    <div class="form-group container ">
+
+        <button class="btn btn-success" id="btnXemKetQua">Xem kết quả</button>
+    </div>
+    <br>
+    <div class="alert alert-danger container" id="ketQua1"></div>
+    <br>
+    <br>
+    <hr>
+
+    <!-- BT2: TÍNH TỔNG 2 SỐ x VÀ n -->
+    <h3 class="container">BT2: TÍNH TỔNG 2 SỐ x VÀ n</h3>
+    <br>
+    <div class="form-group container ">
+        <p>Nhập vào số x</p>
+        <input type="number" class="form-control w-25 mb-2" id="nhapSoX">
+        <br>
+        <p>Nhập vào số n</p>
+        <input type="number" class="form-control w-25 mb-2" id="nhapSoN">
+        <button class="btn btn-success" id="btnTinhTong">Tính tổng</button>
+    </div>
+    <br>
+    <div class="alert alert-danger container" id="ketQua2"></div>
+
+    <!-- BT3: Tính giai thừa -->
+    <hr>
+    <br>
+    <br>
+    <h3 class="container">BT3: NHẬP VÀO 1 SỐ, TÍNH GIAI THỪA SỐ ĐÓ</h3>
+    <br>
+    <div class="form-group container ">
+        <p>Nhập vào số</p>
+        <input type="number" class="form-control w-25 mb-2" id="nhapSo">
+        <button class="btn btn-success" id="btnTinhGiaiThua">Tính giai thừa</button>
+    </div>
+    <br>
+    <div class="alert alert-danger container" id="ketQua3"></div>
+
+    <!-- BT4: TẠO THẺ DIV CHẴN, LẺ -->
+    <br>
+    <br>
+    <hr>
+    <h3 class="container">BT4: TẠO THẺ DIV CHẴN, LẺ </h3>
+    <br>
+    <div class="form-group container ">
+
+        <button onclick="doiMauThe()" class="btn btn-success" id="btnTaoThe">Tạo Thẻ</button>
+    </div>
+    <br>
+    <br>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div lẻ 1</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div chẵn 2</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div lẻ 3</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1"> Div chẵn 4</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div lẻ 5</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1"> Div chẵn 6</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div lẻ 7</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div chẵn 8</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div lẻ 9</div>
+    <div class="themau w-25 ml-5 text-center text-white mb-1">Div chẵn 10</div>
+    <br>
+    <br>
+
+
+
+
+
+    <!-- <div class="alert alert-danger container" id="ketQua4"></div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/style.js"></script>
+</body>
+
+</html>
